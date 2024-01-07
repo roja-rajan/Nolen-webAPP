@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section_1{
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url("./Images/background.webp");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* color: rgb(36, 33, 33); */
+}
+nav #nav_logo{
+    padding-left: 20px;
+    flex-basis: 50%;
+}
+nav #nav_div{
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-basis: 50%;
+    display: flex;
+    gap: 24px;
+}
+nav #nav_div a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: bold;
+}
+nav #nav_div button{
+    margin-left: 20px;
+    height: 35px;
+    width: 70px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.801);
+}
+#aside{
+    margin-left: 70px;
+    border: 2px solid red;
+    height: 500px;
+    width: 700px;
+    color: rgba(255, 255, 255, 0.918);
+}
+#aside p b{
+    font-size: 50px;
+}
+#aside #p{
+    font-size: 30px;
+}
+#b1{
+    height: 53px;
+    width: 180px;
+    border-radius: 30px;
+    border: 0cap;
+    color: rgba(255, 255, 255, 0.918);;
+    background-color: rgb(39, 112, 196);
+}
+#b2{
+    height: 53px;
+    width: 120px;
+    border-radius: 30px;
+    border: 0cap;
+    margin-left: 20px;
+}
